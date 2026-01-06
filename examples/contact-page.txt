@@ -1,0 +1,43 @@
+[vc_row full_width="stretch_row" css=".vc_custom_1747813803300{padding-top: 60px !important;padding-bottom: 60px !important;background-color: #FFF5F7 !important;}"]
+[vc_column]
+[vc_custom_heading text="Επικοινωνία" font_container="tag:h1|font_size:42px|text_align:center|color:%23333333" use_theme_fonts="yes" css=".vc_custom_1747813803301{margin-bottom: 20px !important;}"]
+[vc_column_text css=".vc_custom_1747813803302{text-align: center !important;}"]
+<p>Θα χαρούμε να ακούσουμε από εσάς. Επικοινωνήστε μαζί μας σήμερα.</p>
+[/vc_column_text]
+[/vc_column]
+[/vc_row]
+
+[vc_row css=".vc_custom_1747813803303{padding-top: 60px !important;padding-bottom: 60px !important;}"]
+[vc_column width="1/2" offset="vc_col-lg-6 vc_col-md-12"]
+[vc_custom_heading text="Στείλτε μας μήνυμα" font_container="tag:h2|font_size:28px|text_align:left|color:%23333333" use_theme_fonts="yes" css=".vc_custom_1747813803304{margin-bottom: 30px !important;}"]
+[contact-form-7 id="CONTACT_FORM_ID" title="Contact Form"]
+[/vc_column]
+[vc_column width="1/2" offset="vc_col-lg-6 vc_col-md-12"]
+[vc_custom_heading text="Στοιχεία Επικοινωνίας" font_container="tag:h2|font_size:28px|text_align:left|color:%23333333" use_theme_fonts="yes" css=".vc_custom_1747813803305{margin-bottom: 30px !important;}"]
+[vc_column_text css=".vc_custom_1747813803306{font-size: 16px !important;line-height: 2 !important;}"]
+<p><strong>Διεύθυνση:</strong><br>
+Οδός Παράδειγμα 123<br>
+Αθήνα, 10557<br>
+Ελλάδα</p>
+
+<p><strong>Τηλέφωνο:</strong><br>
++30 210 1234567</p>
+
+<p><strong>Email:</strong><br>
+info@yourstore.gr</p>
+
+<p><strong>Ώρες Λειτουργίας:</strong><br>
+Δευτέρα - Παρασκευή: 9:00 - 18:00<br>
+Σάββατο: 10:00 - 14:00<br>
+Κυριακή: Κλειστά</p>
+[/vc_column_text]
+[vc_empty_space height="20px"]
+[follow facebook="https://facebook.com/yourpage" instagram="https://instagram.com/yourpage" size="normal"]
+[/vc_column]
+[/vc_row]
+
+[vc_row full_width="stretch_row"]
+[vc_column]
+[vc_raw_html]JTNDaWZyYW1lJTIwc3JjJTNEJTIyaHR0cHMlM0ElMkYlMkZ3d3cuZ29vZ2xlLmNvbSUyRm1hcHMlMkZlbWJlZCUzRnBiJTNEJTIxMW0xOCUyMTFtMTIlMjExbTMlMjExZDMxNDUuODI5MTUwMjEwNjI1JTIxMmQyMy43Mjc1Mzk4MTUyMTIyODMlMjEzZDM3Ljk4MzgxNzIwMjE1MjQlMjEybTMlMjExZjAlMjEyZjAlMjEzZjAlMjEzbTIlMjExaTEwMjQlMjEyaTc2OCUyMTRmMTMuMSUyMTNtMyUyMTFtMiUyMTFzMHgxNGExYmQxOTJlZjM1ZjQ3JTI1M0EweDdlZjYzYTA0MTc4N2M0YjAlMjEyc0F0aGVucyUyMTVlMCUyMTNtMiUyMTFzZWwlMjEyc2dyJTIxNHYxNjQwMDAwMDAwMDAwJTIxNW0yJTIxMXNlbCUyMTJzZ3IlMjIlMjB3aWR0aCUzRCUyMjEwMCUyNSUyMiUyMGhlaWdodCUzRCUyMjQ1MCUyMiUyMHN0eWxlJTNEJTIyYm9yZGVyJTNBMCUyMiUyMGFsbG93ZnVsbHNjcmVlbiUzRCUyMiUyMiUyMGxvYWRpbmclM0QlMjJsYXp5JTIyJTNFJTNDJTJGaWZyYW1lJTNF[/vc_raw_html]
+[/vc_column]
+[/vc_row]

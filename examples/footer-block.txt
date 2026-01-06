@@ -1,0 +1,56 @@
+[vc_row full_width="stretch_row" css=".vc_custom_1747813803700{padding-top: 40px !important;padding-bottom: 30px !important;background-color: #f8cae2 !important;}"]
+[vc_column width="1/5" offset="vc_col-lg-offset-0 vc_col-md-4 vc_col-xs-6"]
+[vc_single_image image="LOGO_ID" img_size="150x50" onclick="custom_link" link="/"]
+[vc_empty_space height="15px"]
+[vc_column_text css=".vc_custom_1747813803701{font-size: 14px !important;}"]
+<p>Το αξιόπιστο ηλεκτρονικό κατάστημα για προϊόντα ομορφιάς και περιποίησης.</p>
+[/vc_column_text]
+[follow facebook="https://facebook.com/yourpage" instagram="https://instagram.com/yourpage" tiktok="https://tiktok.com/@yourpage" size="small"]
+[/vc_column]
+[vc_column width="1/5" offset="vc_col-lg-offset-0 vc_col-md-4 vc_col-xs-6"]
+[vc_custom_heading text="Κατάστημα" font_container="tag:h4|font_size:16px|text_align:left|color:%23333333" use_theme_fonts="yes" css=".vc_custom_1747813803702{margin-bottom: 15px !important;}"]
+[vc_column_text css=".vc_custom_1747813803703{font-size: 14px !important;line-height: 2 !important;}"]
+<a href="/shop">Όλα τα Προϊόντα</a><br>
+<a href="/new-arrivals">Νέες Αφίξεις</a><br>
+<a href="/sale">Προσφορές</a><br>
+<a href="/brands">Brands</a>
+[/vc_column_text]
+[/vc_column]
+[vc_column width="1/5" offset="vc_col-lg-offset-0 vc_col-md-4 vc_col-xs-6"]
+[vc_custom_heading text="Πληροφορίες" font_container="tag:h4|font_size:16px|text_align:left|color:%23333333" use_theme_fonts="yes" css=".vc_custom_1747813803704{margin-bottom: 15px !important;}"]
+[vc_column_text css=".vc_custom_1747813803705{font-size: 14px !important;line-height: 2 !important;}"]
+<a href="/about">Ποιοι Είμαστε</a><br>
+<a href="/contact">Επικοινωνία</a><br>
+<a href="/faq">Συχνές Ερωτήσεις</a><br>
+<a href="/blog">Blog</a>
+[/vc_column_text]
+[/vc_column]
+[vc_column width="1/5" offset="vc_col-lg-offset-0 vc_col-md-6 vc_col-xs-6"]
+[vc_custom_heading text="Πολιτικές" font_container="tag:h4|font_size:16px|text_align:left|color:%23333333" use_theme_fonts="yes" css=".vc_custom_1747813803706{margin-bottom: 15px !important;}"]
+[vc_column_text css=".vc_custom_1747813803707{font-size: 14px !important;line-height: 2 !important;}"]
+<a href="/shipping">Αποστολές</a><br>
+<a href="/returns">Επιστροφές</a><br>
+<a href="/terms">Όροι Χρήσης</a><br>
+<a href="/privacy">Πολιτική Απορρήτου</a>
+[/vc_column_text]
+[/vc_column]
+[vc_column width="1/5" offset="vc_col-lg-offset-0 vc_col-md-6 vc_col-xs-12"]
+[vc_custom_heading text="Επικοινωνία" font_container="tag:h4|font_size:16px|text_align:left|color:%23333333" use_theme_fonts="yes" css=".vc_custom_1747813803708{margin-bottom: 15px !important;}"]
+[vc_column_text css=".vc_custom_1747813803709{font-size: 14px !important;line-height: 2 !important;}"]
+<strong>Τηλ:</strong> +30 210 1234567<br>
+<strong>Email:</strong> info@yourstore.gr<br>
+<strong>Ωράριο:</strong> Δευ-Παρ 9:00-18:00
+[/vc_column_text]
+[/vc_column]
+[/vc_row]
+
+[vc_row full_width="stretch_row" css=".vc_custom_1747813803710{padding-top: 15px !important;padding-bottom: 15px !important;background-color: #e8b8d1 !important;}"]
+[vc_column width="1/2"]
+[vc_column_text css=".vc_custom_1747813803711{font-size: 13px !important;}"]
+<p>© 2025 Your Store. Με επιφύλαξη παντός δικαιώματος.</p>
+[/vc_column_text]
+[/vc_column]
+[vc_column width="1/2"]
+[vc_single_image image="PAYMENT_ICONS_ID" img_size="full" alignment="right"]
+[/vc_column]
+[/vc_row]
