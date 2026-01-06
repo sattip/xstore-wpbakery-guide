@@ -1,17 +1,19 @@
+---
+name: wpbakery-page
+description: Create WordPress pages with WPBakery Visual Composer content via database. Use when creating pages with shortcodes, rows, columns, headings, buttons, or product grids for XStore theme.
+allowed-tools: Read, Bash, Grep, Glob, Write
+---
+
 # WPBakery Page Creation
 
-Create WordPress pages with WPBakery content via database operations.
-
-## Usage
-```
-/wpbakery-page
-```
+Create WordPress pages with WPBakery shortcode content via database operations.
 
 ## Instructions
 
 When this skill is invoked, help the user create pages with WPBakery shortcode content.
 
 ### Reference Documentation
+
 - Shortcodes: `WPBAKERY_SHORTCODES.md`
 - Templates: `PAGE_TEMPLATES.md`
 - Examples: `examples/` directory
@@ -30,7 +32,7 @@ PAGE_ID=$(wp post create --post_type=page \
 # Set required WPBakery meta
 wp post meta update $PAGE_ID _wpb_vc_js_status 'true'
 
-# Set compiled CSS (extract from shortcode css attributes)
+# Set compiled CSS
 wp post meta update $PAGE_ID _wpb_shortcodes_custom_css 'CSS_HERE'
 ```
 
@@ -47,6 +49,7 @@ wp post meta update $PAGE_ID _wpb_shortcodes_custom_css 'CSS_HERE'
 ```
 
 ### Available Templates
+
 - Homepage - `examples/homepage.txt`
 - Contact Page - `examples/contact-page.txt`
 - About Page - `examples/about-page.txt`
@@ -61,15 +64,9 @@ wp post meta update $PAGE_ID _wpb_shortcodes_custom_css 'CSS_HERE'
 6. Set required post meta (_wpb_vc_js_status, _wpb_shortcodes_custom_css)
 7. Verify creation with `wp post get PAGE_ID`
 
-### CSS Timestamp Generation
-Generate unique timestamps for CSS classes:
-- Format: `.vc_custom_TIMESTAMP{properties}`
-- Use current Unix timestamp or sequential numbers
-- Each element needs a unique timestamp
-
 ### Important Notes
 
 - Colors in font_container use URL encoding: `%23ff7eb9` = `#ff7eb9`
 - Links use URL encoding: `url:%2Fshop` = `url:/shop`
-- Always set `_wpb_vc_js_status` to `true` for WPBakery to recognize the page
+- Always set `_wpb_vc_js_status` to `true`
 - Compile all CSS from shortcodes into `_wpb_shortcodes_custom_css` meta

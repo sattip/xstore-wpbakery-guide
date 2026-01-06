@@ -1,41 +1,43 @@
+---
+name: xstore-theme-options
+description: Configure XStore WordPress theme options via WP-CLI. Use when setting brand colors, typography, layout, buttons, breadcrumbs, or WooCommerce settings for XStore theme.
+allowed-tools: Read, Bash, Grep, Glob
+---
+
 # XStore Theme Options Configuration
 
 Configure XStore theme options via WP-CLI commands.
-
-## Usage
-```
-/xstore-theme-options
-```
 
 ## Instructions
 
 When this skill is invoked, help the user configure XStore theme options.
 
 ### Reference Documentation
-Read the theme options reference from: `THEME_OPTIONS.md` in this repository.
+
+Read the theme options reference from `THEME_OPTIONS.md` in this repository for complete option list.
 
 ### Common Tasks
 
-1. **Set Brand Colors**
+**Set Brand Colors:**
 ```bash
-wp option patch update theme_mods_xstore-child activecol '#HEX_COLOR'
-wp option patch update theme_mods_xstore-child light_buttons_bg '{"regular":"#HEX","hover":"#HEX"}'
+wp option patch update theme_mods_xstore-child activecol '#ff7eb9'
+wp option patch update theme_mods_xstore-child light_buttons_bg '{"regular":"#ff7eb9","hover":"#ff65a3"}'
 wp option patch update theme_mods_xstore-child light_buttons_color '{"regular":"#ffffff","hover":"#ffffff"}'
 ```
 
-2. **Set Typography**
+**Set Typography:**
 ```bash
-wp option patch update theme_mods_xstore-child sfont '{"font-family":"FONT_NAME","font-size":"17px","line-height":"1.6"}'
-wp option patch update theme_mods_xstore-child headings '{"font-family":"FONT_NAME","font-weight":700}'
+wp option patch update theme_mods_xstore-child sfont '{"font-family":"Manrope-Regular","font-size":"17px","line-height":"1.6"}'
+wp option patch update theme_mods_xstore-child headings '{"font-family":"Manrope-SemiBold","font-weight":700}'
 ```
 
-3. **Set Layout**
+**Set Layout:**
 ```bash
 wp option patch update theme_mods_xstore-child main_layout 'wide'
 wp option patch update theme_mods_xstore-child site_width 1170
 ```
 
-4. **Set WooCommerce Options**
+**Set WooCommerce Options:**
 ```bash
 wp option patch update theme_mods_xstore-child products_per_page 12
 wp option patch update theme_mods_xstore-child grid_sidebar 'left'
@@ -48,11 +50,11 @@ wp option patch update theme_mods_xstore-child product_view 'default'
 2. Reference THEME_OPTIONS.md for available options and valid values
 3. Generate the appropriate WP-CLI commands
 4. Execute commands via SSH or provide them for manual execution
-5. Remind user to clear cache after changes: `wp cache flush`
+5. Remind user to clear cache: `wp cache flush`
 
 ### Important Notes
 
 - Always backup before changes: `wp db export backup.sql`
 - Clear cache after changes: `wp cache flush && wp transient delete --all`
 - Use JSON format for complex options (typography, colors with states)
-- Colors in theme_mods use hex format: `#ff7eb9`
+- Colors use hex format: `#ff7eb9`
